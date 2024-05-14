@@ -14,7 +14,8 @@
   "type": "module",
   "types": "module",
   "dependencies": {
-    "ramda": "^0.30.0"
+    "ramda": "^0.30.0",
+    "jsonexport": "^3.2.0"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
