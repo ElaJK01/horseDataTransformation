@@ -1,6 +1,12 @@
-import { map } from 'ramda';
+import { filter, includes, keys, map } from 'ramda'
 import jsonexport from 'jsonexport';
 import fs from 'node:fs';
+
+export const deleteTablesWithoutScores = (tables) => {
+  return filter(table => includes("tableTitle", keys(table)),tables)
+
+
+}
 
 export const arrayWithNoDuplicates = (arr) => {
   const stringifiesSet = new Set(map(e => JSON.stringify(e), arr))
