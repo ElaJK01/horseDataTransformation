@@ -38,7 +38,7 @@ const cleanData = (data) => {
 
 const cleanCzechData = cleanData(data);
 
-await writeToCsv(cleanCzechData, 'czechHorses');
+//await writeToCsv(cleanCzechData, 'czechHorses');
 
 //simplifies polish horses data
 const transformPolishData = (data) => {
@@ -69,13 +69,13 @@ const transformPolishData = (data) => {
       sex,
       breed,
       horseFromPolishBreeding,
-      breeders,
+      breeders: map((breeder) => ({name: propOr('', 'name', breeder)}), breeders),
       suffix,
       mother: {name: mother.name, sex: mother.sex, breed: mother.breed, suffix: mother.suffix},
       father: {name: father.name, sex: father.sex, breed: father.breed, suffix: father.suffix},
       color,
       trainer: `${propOr('', 'firstName', trainer)} ${propOr('', 'lastName', trainer)}`,
-      raceOwners,
+      raceOwners: map((owner) => ({name: propOr('', 'name', owner)}), raceOwners),
     };
 
     const races = map((data) => {
