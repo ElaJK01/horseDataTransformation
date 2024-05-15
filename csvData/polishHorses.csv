@@ -1,0 +1,150 @@
+id,name,dateOfBirth,sex,breed,horseFromPolishBreeding,breeders.id,breeders.name,breeders.street,breeders.city,breeders.note,breeders.horses,suffix,mother.name,mother.sex,mother.breed,mother.suffix,father.name,father.sex,father.breed,father.suffix,color.id,color.polishName,color.polishShortName,color.englishName,color.englishShortName,trainer,raceOwners.id,raceOwners.name,raceOwners.street,raceOwners.city,raceOwners.note,horseCareerData.data.raceYear,horseCareerData.data.horseAge,horseCareerData.data.raceType,horseCareerData.data.raceCount,horseCareerData.data.raceWonCount,horseCareerData.data.racePrizeCount,horseCareerData.data.prize,horseCareerData.recordCount,races.raceId,races.raceDate,races.name,races.order,races.place,races.prize,races.jockey,races.trainer,races.country,races.city
+2,MARYWIL,2013,GELDING,THOROUGHBRED,,1412,Wattlefield Stud Ltd,,,,,GB,Sadaharu,MARE,THOROUGHBRED,FR,Mawatheeq,STALLION,THOROUGHBRED,USA,2,gniada,gn.,bay,bay,Adam Wyrzyk A.,1222,M. Biały,,,,2015,2,Płaskie,3,0,3,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,0,3,5850 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016,3,Płaskie,5,4,1,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,4,1,47250 zł,4,21614,1435356000000,,5,5,450,Ireneusz Wójcik I.,Adam Wyrzyk A.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64701,1446937200000,,5,3,1800,Michal Abik M.,Adam Wyrzyk A.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67539,1448146800000,,2,2,3600,Michal Abik M.,Adam Wyrzyk A.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,1460844000000,,7,1,7000,Michal Abik M.,Adam Wyrzyk A.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,277,1462053600000,,1,1,7000,Michal Abik M.,Adam Wyrzyk A.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10188,1464386400000,,1,1,10600,Michal Abik M.,Adam Wyrzyk A.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13962,1466287200000,,2,1,21000,Michal Abik M.,Adam Wyrzyk A.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28780,1469916000000,,3,5,1650,Michal Abik M.,Adam Wyrzyk A.,Poland,Warszawa
+5,CARNEAU,2013,STALLION,THOROUGHBRED,,1281,Stall 5-Stars,,,,,GER,Crimson Glory,MARE,THOROUGHBRED,GB,It's Gino,STALLION,THOROUGHBRED,GER,1,kasztanowata,kaszt.,chestnut,chest.,Wojciech Olkowski W.,23,"A. Zieliński, J. Mierzwa Zielińska, Ryszard Zieliński i K. Zielińska",,,,2015,2,Płaskie,4,2,1,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4,2,1,21500 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016,3,Płaskie,7,0,5,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,0,5,4750 zł,4,35344,1439589600000,,4,1,9000,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45061,1441490400000,,5,5,1500,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53180,1443823200000,,3,1,11000,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64565,1446937200000,,1,6,,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32,1460844000000,,3,3,2120,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,94794,1462572000000,,5,5,530,Szczepan Mazur S.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95014,1465682400000,,4,6,,Aleksandr Kabardov A.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27808,1469311200000,,2,4,700,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41201,1471644000000,,3,4,700,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52144,1474149600000,,7,6,,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66427,1476568800000,,4,4,700,Tomaš Lukášek T.,Wojciech Olkowski W.,Poland,Warszawa
+8,TOLLEE DUST,2006,GELDING,ARABIAN,,1225,Sheikh Mohammed bin Rashid al Maktoum,,,,,GB,CV Tulee,MARE,ARABIAN,US,Khoutoubia,STALLION,ARABIAN,FR,3,siwa,s.,grey,gr.,Michał Romanowski M.,1644,Polski Klub Wiejski Sp. z o.o.,,,,2011,5,Płaskie,9,3,6,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,6,18750 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2013,7,Płaskie,7,2,5,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,5,15060 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2014,8,Płaskie,9,2,6,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,2,6,13120 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2015,9,Płaskie,8,2,3,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,2,3,12500 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016,10,Płaskie,9,1,7,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,1,7,10680 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2017,11,Płaskie,7,0,2,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,0,2,640 zł,12,1088,1302991200000,,8,2,1760,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5742,1304805600000,,4,2,1760,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18791,1308348000000,,1,1,3200,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35323,1312668000000,,8,2,1430,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41636,1313877600000,,3,2,2200,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47311,1315605600000,,4,1,4000,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56207,1317506400000,,4,4,600,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63193,1318975200000,,3,1,3200,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70230,1321052400000,,7,4,600,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6845,1368828000000,,2,2,1920,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21140,1371938400000,,1,2,2320,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24861,1373061600000,,14,4,580,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29844,1375480800000,,11,1,3800,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47636,1379800800000,,13,1,4800,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60092,1382824800000,,8,4,480,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62405,1383433200000,,7,3,1160,Szczepan Mazur S.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1115,1398463200000,,11,5,240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8668,1400277600000,,8,4,480,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15715,1402178400000,,7,1,4800,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27970,1406412000000,,9,5,240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33868,1407621600000,,9,2,1520,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47500,1411164000000,,8,3,1800,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,55409,1412978400000,,9,1,3800,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59247,1414188000000,,9,5,240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70141,1416697200000,,9,8,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1274,1429394400000,,11,1,5000,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9257,1431813600000,,7,6,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32272,1438466400000,,9,7,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38399,1440194400000,,8,1,4000,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47352,1442095200000,,9,2,2000,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53597,1443823200000,,11,4,500,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64821,1446937200000,,9,6,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66210,1447542000000,,8,3,1000,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1372,1462572000000,,9,5,240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8024,1464386400000,,7,2,1920,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12190,1465596000000,,8,2,1920,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24656,1469224800000,,11,5,200,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35455,1471039200000,,10,5,240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41834,1472335200000,,7,2,1920,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48052,1473544800000,,7,1,4000,Ireneusz Wójcik I.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59830,1475272800000,,9,5,240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70762,1477087200000,,8,6,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95377,1493416800000,,7,5,240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95761,1495836000000,,9,10,,Michal Abik M.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,96125,1497650400000,,10,6,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,96578,1499551200000,,12,-5,,Joanna Wyrzyk J.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,97710,1504389600000,,13,10,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99093,1509836400000,,7,4,400,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99336,1511046000000,,12,9,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+9,INEXTREMO,2010,GELDING,ARABIAN,,1198,S. Schnakenberg,,,,,DE,Isy,MARE,ARABIAN,PT,Marwan I,STALLION,ARABIAN,FR,1,kasztanowata,kaszt.,chestnut,chest.,Michał Romanowski M.,1644,Polski Klub Wiejski Sp. z o.o.,,,,2014,4,Płaskie,9,3,6,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,6,19980 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2015,5,Płaskie,5,2,2,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,2,2,13600 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016,6,Płaskie,8,0,5,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8,0,5,6770 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2017,7,Płaskie,10,3,5,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9,3,5,17600 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,0 €,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2018,8,Płaskie,5,1,4,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5,1,4,14840 zł,11,1110,1398463200000,,6,3,960,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7604,1399759200000,,1,1,4800,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16172,1402178400000,,11,5,280,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33860,1407621600000,,1,1,3800,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39008,1408831200000,,6,4,900,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46510,1410645600000,,5,3,1120,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57945,1413583200000,,6,2,2240,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64558,1415487600000,,3,5,280,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70138,1416697200000,,6,1,5600,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2788,1429912800000,,3,4,600,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10597,1432332000000,,7,1,6000,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24700,1435960800000,,11,9,,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,55954,1444428000000,,8,2,2000,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64820,1446937200000,,8,1,5000,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14,1460844000000,,7,2,3120,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,94845,1463176800000,,7,6,,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12356,1466287200000,,7,5,290,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40495,1471730400000,,10,2,1600,Rowan Scott R.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46240,1472940000000,,7,3,800,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60084,1475877600000,,7,3,960,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72896,1477173600000,,7,6,,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95165,1480201200000,,20,17,,Ireneusz Wójcik I.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28508,1492898400000,,10,4,480,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,93517,1494626400000,,7,3,960,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,95867,1497045600000,,9,4,480,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,94224,1501020000000,,3,6,,Sophie Ralston S.,Michał Romanowski M.,Germany,Hoppegarten
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,97446,1503180000000,,10,2,1600,Joanna Mason J.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,97877,1505512800000,,12,6,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,98261,1506808800000,,11,1,4000,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,98508,1507932000000,,9,1,4800,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99042,1509228000000,,8,4,480,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99352,1510959600000,,7,1,4800,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99489,1524348000000,,7,2,3120,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,99599,1525557600000,,9,4,600,Marek Březina M.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,100293,1528495200000,,10,2,3120,Szczepan Mazur S.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,101276,1532728800000,,4,3,3000,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,101727,1534024800000,,6,1,5000,Szczepan Mazur S.,Michał Romanowski M.,Poland,Warszawa
+10,FEMIDA,2013,MARE,THOROUGHBRED,,943,Millennium Stud,,,,,FR,Fines Girl,MARE,THOROUGHBRED,USA,Kupets,STALLION,THOROUGHBRED,USA,2,gniada,gn.,bay,bay,Michał Romanowski M.,1493,Millennium Stud Sp. z o.o.,od 2014 Sp. z o.o.,,,2016,3,Płaskie,1,0,0,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,0,0,0 zł,2,139,1461448800000,,10,6,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Wrocław
+11,HOT CHOCOLATE,2013,MARE,THOROUGHBRED,,7,Expert Host Janusz Romanowski,,,,,,HEBRAJKA,MARE,THOROUGHBRED,,Ryan,STALLION,THOROUGHBRED,IRE,2,gniada,gn.,bay,bay,Michał Romanowski M.,1644,Polski Klub Wiejski Sp. z o.o.,,,,2015,2,Płaskie,2,0,2,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2,0,2,5400 zł,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016,3,Płaskie,10,1,6,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10,1,6,13050 zł,4,34332,1439071200000,,1,2,3600,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41190,1440799200000,,9,3,1800,Piotr Krowicki P.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61,1460844000000,,5,8,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,849,1462572000000,,1,5,350,Anton Turgaev A.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18777,1466892000000,,4,2,2500,Ireneusz Wójcik I.,Michał Romanowski M.,Poland,Wrocław
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22869,1468015200000,,1,4,700,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Sopot
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30839,1469916000000,,2,3,1600,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Wrocław
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37294,1471125600000,,7,7,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49178,1473458400000,,7,1,6000,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66091,1476482400000,,1,3,1200,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,78628,1478300400000,,3,4,700,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,94239,1479596400000,,3,12,,Cornelia Fraisl C.,Michał Romanowski M.,Poland,Warszawa
