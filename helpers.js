@@ -1,20 +1,18 @@
-import { filter, includes, keys, map } from 'ramda'
+import {filter, includes, keys, map} from 'ramda';
 import jsonexport from 'jsonexport';
 import fs from 'node:fs';
 
 export const deleteTablesWithoutScores = (tables) => {
-  return filter(table => includes("tableTitle", keys(table)),tables)
-
-
-}
+  return filter((table) => includes('tableTitle', keys(table)), tables);
+};
 
 export const arrayWithNoDuplicates = (arr) => {
-  const stringifiesSet = new Set(map(e => JSON.stringify(e), arr))
-  const arrFromSet = Array.from(stringifiesSet)
-  return map(e => JSON.parse(e), arrFromSet)
-}
+  const stringifiesSet = new Set(map((e) => JSON.stringify(e), arr));
+  const arrFromSet = Array.from(stringifiesSet);
+  return map((e) => JSON.parse(e), arrFromSet);
+};
 
-export const writeToCsv = async (data, text='data') => {
+export const writeToCsv = async (data, text = 'data') => {
   const pathCsv = `./csvData/${text}.csv`;
   await jsonexport(data, function (err, csv) {
     if (err) return console.error(err);
@@ -26,4 +24,8 @@ export const writeToCsv = async (data, text='data') => {
       }
     });
   });
+};
+
+export const convertDate = (date) => {
+  return new Date(date).toLocaleDateString();
 };

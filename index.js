@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import util from 'node:util';
 import {equals, filter, flatten, map, pipe, prop, propOr, slice} from 'ramda';
-import {arrayWithNoDuplicates, deleteTablesWithoutScores, writeToCsv} from './helpers.js';
+import {arrayWithNoDuplicates, convertDate, deleteTablesWithoutScores, writeToCsv} from './helpers.js';
 
 const czechRacesPath = `./mockData/czech_races_data.json`;
 const polishHorsesPath = `./mockData/polish_horses_data.json`;
@@ -89,7 +89,7 @@ const transformPolishData = (data) => {
 
       return {
         raceId: id,
-        raceDate: date,
+        raceDate: convertDate(date),
         name: name || '',
         order: order || '',
         place: place || '',
