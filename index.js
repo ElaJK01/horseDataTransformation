@@ -1,7 +1,15 @@
 import fs from 'node:fs';
 import util from 'node:util';
-import {equals, filter, flatten, map, pipe, prop, propOr, slice} from 'ramda';
-import {arrayWithNoDuplicates, convertDate, deleteTablesWithoutScores, writeToCsv} from './helpers.js';
+import {concat, equals, filter, flatten, head, map, pipe, prop, propOr} from 'ramda';
+import {
+  arrayWithNoDuplicates,
+  convertDate,
+  cutCityFromTitle,
+  cutCountryFromRaceId,
+  cutDateFromTitle,
+  deleteTablesWithoutScores,
+  writeToCsv,
+} from './helpers.js';
 
 const czechRacesPath = `./mockData/czech_races_data.json`;
 const polishHorsesPath = `./mockData/polish_horses_data.json`;
@@ -95,6 +103,8 @@ const transformPolishData = (data) => {
         place: place || '',
         prize: prize || '',
         jockey: jockeyName,
+        jockeyWeight,
+        time: '',
         trainer: trainerName,
         country: raceCountry,
         city: raceCity,
@@ -109,6 +119,68 @@ const polishRacesData = JSON.parse(fs.readFileSync(polishHorsesPath, {encoding: 
 
 const polishHorsesDataExtended = transformPolishData(polishRacesData);
 
-console.log(util.inspect(polishHorsesDataExtended, {depth: null, colors: true}));
+//await writeToCsv(polishHorsesDataExtended, 'polishHorses');
 
-await writeToCsv(polishHorsesDataExtended, 'polishHorses');
+const mergeCzechAndPolishData = (polish, czech) => {
+  const polishChanged = map((row) => {
+    return {
+      id: propOr('', 'id', row),
+      name: propOr('', 'name', row),
+      dateOfBirth: propOr('', 'dateOfBirth', row),
+      sex: propOr('', 'sex', row),
+      breed: propOr('', 'breed', row),
+      horseFromPolishBreeding: propOr('', 'horseFromPolishBreeding', row),
+      breeders: propOr([], 'breeders', row),
+      suffix: propOr('', 'suffix', row),
+      mother: propOr({}, 'mother', row),
+      father: propOr({}, 'father', row),
+      color: propOr({}, 'color', row),
+      trainer: propOr('', 'trainer', row),
+      raceOwners: propOr([], 'raceOwners', row),
+      races: propOr([], 'races', row),
+      dataSource: 'PKWK site',
+    };
+  }, polish);
+
+  const czechChanged = map((row) => {
+    const races = pipe(
+      propOr([], 'races'),
+      map((el) => ({
+        raceId: propOr('', 'raceId', el),
+        raceDate: pipe(propOr('', 'raceDateTitle'), cutDateFromTitle)(el),
+        name: propOr('', 'tableTitle', el),
+        order: propOr('', 'st.č.', el),
+        place: pipe(propOr('', 'poř.'), head)(el),
+        prize: null,
+        jockey: propOr('', 'jezdec', el),
+        jockeyWeight: propOr('', 'váha', el),
+        time: propOr('', 'čas', el),
+        trainer: propOr('', 'trenér', el),
+        country: pipe(propOr('', 'raceId'), cutCountryFromRaceId)(el),
+        city: pipe(propOr('', 'raceDateTitle'), cutCityFromTitle)(el),
+      }))
+    )(row);
+    return {
+      id: '',
+      name: propOr('', 'jméno koně', row),
+      dateOfBirth: '',
+      sex: '',
+      breed: '',
+      horseFromPolishBreeding: '',
+      breeders: [],
+      suffix: '',
+      mother: {},
+      father: {},
+      color: {},
+      trainer: '',
+      raceOwners: [],
+      races: races,
+      dataSource: 'Jockey Club Ceske republiky site',
+    };
+  }, czech);
+
+  return concat(polishChanged, czechChanged);
+};
+
+const mergedAll = mergeCzechAndPolishData(polishHorsesDataExtended, cleanCzechData);
+await writeToCsv(mergedAll, 'allHorses');

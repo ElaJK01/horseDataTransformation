@@ -1,4 +1,4 @@
-import {filter, includes, keys, map} from 'ramda';
+import {filter, includes, keys, last, map, match, pipe, split, trim} from 'ramda';
 import jsonexport from 'jsonexport';
 import fs from 'node:fs';
 
@@ -28,4 +28,16 @@ export const writeToCsv = async (data, text = 'data') => {
 
 export const convertDate = (date) => {
   return new Date(date).toLocaleDateString();
+};
+
+export const cutDateFromTitle = (string) => {
+  return match(/(0\d{1}|1[0-2]).([0-2]\d{1}|3[0-1]).(19|20)\d{2}/, string)[0];
+};
+
+export const cutCityFromTitle = (string) => {
+  return pipe(split('-'), last, trim)(string);
+};
+
+export const cutCountryFromRaceId = (string) => {
+  return pipe(split(' '), last)(string);
 };
